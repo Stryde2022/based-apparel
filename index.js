@@ -19,3 +19,11 @@ form.addEventListener("submit", function(e) {
         warningText.classList.remove("hide");
      }
 });
+
+email.addEventListener("input", function () {
+    console.log("error states removed");
+    errorImg.classList.add("hide");
+    warningText.classList.add("hide");
+    
+})
+
